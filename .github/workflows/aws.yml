@@ -9,6 +9,7 @@ env:
   CONTAINER_NAME: app
   ECS_SERVICE: app_service
   ECS_TD: .github/workflows/td.json
+  ECR_REGISTRY: app_repo.dkr.ecr.ap-south-1.amazonaws.com
 
 jobs:
   deploy:
