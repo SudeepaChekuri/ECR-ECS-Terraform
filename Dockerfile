@@ -9,4 +9,4 @@ RUN npm install
 # Now copy the rest of the application files
 COPY . .
 
-CMD ["node", "index.js"]
+CMD ["node", "index.js"] 
